@@ -1,8 +1,10 @@
-import ReactDOM from "react-dom";
-import React from "react";
+import './index.css'
+import Texto from 'react-dom'
+import React from 'react'
 
-const tag = <strong> Olá React! </strong>
-ReactDOM.render(
+const tag = <strong> Olá React! Texto exemplo </strong>
+
+Texto.render(
       <div>
         { tag }
       </div>, 
